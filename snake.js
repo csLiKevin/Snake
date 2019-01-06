@@ -92,7 +92,6 @@ export class Snake {
      * @param {string} direction New movement direction.
      */
     setDirection(direction) {
-        console.log(this.direction, direction);
         // Prevent the snake from doing a 180.
         if (
             (this.direction === DOWN && direction !== UP) ||
